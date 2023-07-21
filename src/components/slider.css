@@ -1,0 +1,42 @@
+.carousel {
+  position: relative;
+  height: 100%;
+}
+
+/* .carousel .image {
+  top: 25px;
+  height: 90vh;
+} */
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+
+  margin: 0;
+}
+
+.carousel .thumb {
+  margin: 0.5px;
+  cursor: pointer;
+}
+
+.carousel .overlay {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+  padding: 0.4rem 1.5;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.carousel .overlay_title {
+  margin: 0.8rem 0.1rem 0;
+}
+
+.carousel .overlay_p {
+  text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+}
